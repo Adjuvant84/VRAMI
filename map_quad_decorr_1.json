@@ -1,0 +1,167 @@
+{
+	"nodes" : 	{
+		"13" : 		{
+			"channel" : 0,
+			"type" : 1,
+			"position" : [ -500.0, 500.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"14" : 		{
+			"channel" : 1,
+			"type" : 1,
+			"position" : [ 500.0, 500.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"15" : 		{
+			"channel" : 3,
+			"type" : 1,
+			"position" : [ 500.0, -500.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"16" : 		{
+			"channel" : 2,
+			"type" : 1,
+			"position" : [ -500.0, -500.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"17" : 		{
+			"channel" : 4,
+			"type" : 1,
+			"position" : [ 0.0, 0.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"22" : 		{
+			"channel" : -1,
+			"type" : 4,
+			"position" : [ 1000.0, 1000.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"24" : 		{
+			"channel" : -1,
+			"type" : 4,
+			"position" : [ 1000.0, -1000.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"26" : 		{
+			"channel" : -1,
+			"type" : 4,
+			"position" : [ -1000.0, -1000.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"28" : 		{
+			"channel" : -1,
+			"type" : 4,
+			"position" : [ -1000.0, 1000.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"36" : 		{
+			"channel" : -1,
+			"type" : 4,
+			"position" : [ 0.0, 1000.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"37" : 		{
+			"channel" : -1,
+			"type" : 4,
+			"position" : [ 1000.0, -0.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"38" : 		{
+			"channel" : -1,
+			"type" : 4,
+			"position" : [ 0.0, -1000.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"39" : 		{
+			"channel" : -1,
+			"type" : 4,
+			"position" : [ -1000.0, -0.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+
+	}
+,
+	"sets" : 	{
+		"29" : [ 16, 17, 15 ],
+		"30" : [ 17, 16, 13 ],
+		"31" : [ 17, 13, 14 ],
+		"32" : [ 17, 14, 15 ],
+		"67" : [ 36, 14, 13 ],
+		"68" : [ 36, 14, 22 ],
+		"69" : [ 14, 22, 37 ],
+		"70" : [ 37, 14, 15 ],
+		"71" : [ 15, 37, 24 ],
+		"72" : [ 15, 24, 38 ],
+		"73" : [ 38, 15, 16 ],
+		"74" : [ 16, 38, 26 ],
+		"75" : [ 16, 26, 39 ],
+		"76" : [ 39, 16, 13 ],
+		"77" : [ 13, 39, 28 ],
+		"78" : [ 13, 28, 36 ]
+	}
+
+}

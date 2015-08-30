@@ -1,0 +1,275 @@
+{
+	"nodes" : 	{
+		"13" : 		{
+			"channel" : 0,
+			"type" : 1,
+			"position" : [ -500.0, 500.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"14" : 		{
+			"channel" : 1,
+			"type" : 1,
+			"position" : [ 500.0, 500.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"15" : 		{
+			"channel" : 3,
+			"type" : 1,
+			"position" : [ 500.0, -500.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"16" : 		{
+			"channel" : 2,
+			"type" : 1,
+			"position" : [ -500.0, -500.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"17" : 		{
+			"channel" : 4,
+			"type" : 1,
+			"position" : [ 0.0, 0.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"22" : 		{
+			"channel" : -1,
+			"type" : 4,
+			"position" : [ 1000.0, 1000.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"24" : 		{
+			"channel" : -1,
+			"type" : 4,
+			"position" : [ 1000.0, -1000.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"26" : 		{
+			"channel" : -1,
+			"type" : 4,
+			"position" : [ -1000.0, -1000.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"28" : 		{
+			"channel" : -1,
+			"type" : 4,
+			"position" : [ -1000.0, 1000.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+
+			}
+
+		}
+,
+		"29" : 		{
+			"channel" : -1,
+			"type" : 2,
+			"position" : [ 0.0, 800.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+				"0" : 				{
+					"targetnode" : 13,
+					"weight" : 1.0
+				}
+,
+				"1" : 				{
+					"targetnode" : 14,
+					"weight" : 1.0
+				}
+
+			}
+
+		}
+,
+		"30" : 		{
+			"channel" : -1,
+			"type" : 2,
+			"position" : [ 800.0, -0.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+				"0" : 				{
+					"targetnode" : 14,
+					"weight" : 1.0
+				}
+,
+				"1" : 				{
+					"targetnode" : 15,
+					"weight" : 1.0
+				}
+
+			}
+
+		}
+,
+		"31" : 		{
+			"channel" : -1,
+			"type" : 2,
+			"position" : [ 0.0, -800.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+				"0" : 				{
+					"targetnode" : 15,
+					"weight" : 1.0
+				}
+,
+				"1" : 				{
+					"targetnode" : 16,
+					"weight" : 1.0
+				}
+
+			}
+
+		}
+,
+		"32" : 		{
+			"channel" : -1,
+			"type" : 2,
+			"position" : [ -800.0, -0.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+				"0" : 				{
+					"targetnode" : 13,
+					"weight" : 1.0
+				}
+,
+				"1" : 				{
+					"targetnode" : 16,
+					"weight" : 1.0
+				}
+
+			}
+
+		}
+,
+		"33" : 		{
+			"channel" : -1,
+			"type" : 2,
+			"position" : [ -800.0, 800.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+				"0" : 				{
+					"targetnode" : 13,
+					"weight" : 1.0
+				}
+
+			}
+
+		}
+,
+		"34" : 		{
+			"channel" : -1,
+			"type" : 2,
+			"position" : [ 800.0, 800.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+				"0" : 				{
+					"targetnode" : 14,
+					"weight" : 1.0
+				}
+
+			}
+
+		}
+,
+		"35" : 		{
+			"channel" : -1,
+			"type" : 2,
+			"position" : [ 800.0, -800.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+				"0" : 				{
+					"targetnode" : 15,
+					"weight" : 1.0
+				}
+
+			}
+
+		}
+,
+		"36" : 		{
+			"channel" : -1,
+			"type" : 2,
+			"position" : [ -800.0, -800.0 ],
+			"attenuation" : 1.0,
+			"links" : 			{
+				"0" : 				{
+					"targetnode" : 16,
+					"weight" : 1.0
+				}
+
+			}
+
+		}
+
+	}
+,
+	"sets" : 	{
+		"29" : [ 16, 17, 15 ],
+		"30" : [ 17, 16, 13 ],
+		"31" : [ 17, 13, 14 ],
+		"32" : [ 17, 14, 15 ],
+		"44" : [ 29, 14, 13 ],
+		"45" : [ 32, 13, 16 ],
+		"46" : [ 31, 16, 15 ],
+		"47" : [ 30, 15, 14 ],
+		"48" : [ 29, 22, 28 ],
+		"49" : [ 30, 22, 24 ],
+		"50" : [ 31, 24, 26 ],
+		"51" : [ 32, 26, 28 ],
+		"52" : [ 13, 33, 29 ],
+		"53" : [ 13, 33, 32 ],
+		"54" : [ 32, 16, 36 ],
+		"55" : [ 16, 36, 31 ],
+		"56" : [ 31, 15, 35 ],
+		"57" : [ 15, 35, 30 ],
+		"58" : [ 30, 14, 34 ],
+		"59" : [ 14, 34, 29 ],
+		"60" : [ 33, 28, 29 ],
+		"61" : [ 33, 28, 32 ],
+		"62" : [ 36, 26, 32 ],
+		"63" : [ 36, 26, 31 ],
+		"64" : [ 35, 31, 24 ],
+		"65" : [ 35, 24, 30 ],
+		"66" : [ 34, 22, 30 ],
+		"67" : [ 34, 22, 29 ]
+	}
+
+}
